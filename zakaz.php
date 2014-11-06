@@ -6,10 +6,9 @@
 <body>
 
 <?php
-
 $ids=($_GET[id]);
-$dbc = mysqli_connect('localhost', 'libs', '12345', 'libs')
-         or die('Error querying database.');
+include_once ('connect.php');
+$dbc = mysqli_connect($db_host, $db_usr, $db_pass, $db_name) or die ('Error connecting to MySQL server.');
      
    $qwerq = "SELECT * FROM user WHERE id = $ids";	
     $tyq = mysqli_query($dbc, $qwerq);
@@ -22,8 +21,8 @@ $dbc = mysqli_connect('localhost', 'libs', '12345', 'libs')
  mysqli_close($dbc);
 
 
-   $dbc = mysqli_connect('localhost', 'libs', '12345', 'libs')
-         or die('Error querying database.');
+include_once ('connect.php');
+$dbc = mysqli_connect($db_host, $db_usr, $db_pass, $db_name) or die ('Error connecting to MySQL server.');
     $query = "SELECT * FROM booking WHERE mens = $ids";	
     $result = mysqli_query($dbc, $query);
    

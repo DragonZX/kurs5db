@@ -5,8 +5,8 @@
 
 <body>
 <?php
-$dbc = mysqli_connect('localhost', 'libs', '12345', 'libs')
-      or die('Error connecting to MySQL server.');
+include_once ('connect.php');
+$dbc = mysqli_connect($db_host, $db_usr, $db_pass, $db_name) or die ('Error connecting to MySQL server.');
 
     $query = "SELECT * FROM user";
     $result = mysqli_query($dbc, $query)

@@ -12,8 +12,8 @@ printf ("<h1> $ids</h1>");
 
 <body>
 <?php $ids=($_GET[id]);
-$dbc = mysqli_connect('localhost', 'libs', '12345', 'libs')
-         or die('Error querying database.');
+include_once ('connect.php');
+$dbc = mysqli_connect($db_host, $db_usr, $db_pass, $db_name) or die ('Error connecting to MySQL server.');
      
    $qwer = "SELECT * FROM user WHERE id = $ids";	
     $ty = mysqli_query($dbc, $qwer);
