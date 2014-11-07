@@ -30,11 +30,8 @@ $dbc = mysqli_connect($db_host, $db_usr, $db_pass, $db_name) or die ('Error conn
      <?php } ?>
    </table>
    </form>
-   
-   
-   <p><a href="index.php">На главную</a></p>
-   
- <p>Добавить нового человека</p>
+    <p><a href="index.php">На главную</a></p>
+  <p>Добавить нового человека</p>
   <form name="form" method="post" action="add_user.php">
     <label for="fio">ФИО</label>
     <input type="text" id="fio" name="fio" size=100 /><br />

@@ -1,16 +1,16 @@
-<html>
+п»ї<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Первая</title>
+<title>РџРµСЂРІР°СЏ</title>
 </head>
 
 <body>
-<p>Добро пожаловать в картотеку!</p>
-<p>Что мне надо сделать?</p>
-<p><a href="add_comp.html">Добавить книгу!</a></p>
-<p><a href="add_user.html">Добавить пользователя</a></p>
-<p><a href="spisok.php">Посмотреть список клиентов</a></p>
-<p><a href="spisokd.php">Список доступных книг</a></p>
-<p><a href="spisokz.php">Список заказов</a></p>
+<p>Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ РІ РєР°СЂС‚РѕС‚РµРєСѓ!</p>
+<p>Р§С‚Рѕ РјРЅРµ РЅР°РґРѕ СЃРґРµР»Р°С‚СЊ?</p>
+<p><a href="add_comp.html">Р”РѕР±Р°РІРёС‚СЊ РєРЅРёРіСѓ!</a></p>
+<p><a href="add_user.html">Р”РѕР±Р°РІРёС‚СЊ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</a></p>
+<p><a href="spisok.php">РџРѕСЃРјРѕС‚СЂРµС‚СЊ СЃРїРёСЃРѕРє РєР»РёРµРЅС‚РѕРІ</a></p>
+<p><a href="spisokd.php">РЎРїРёСЃРѕРє РґРѕСЃС‚СѓРїРЅС‹С… РєРЅРёРі</a></p>
+<p><a href="spisokz.php">РЎРїРёСЃРѕРє Р·Р°РєР°Р·РѕРІ</a></p>
 </body>
 </html>

@@ -3,19 +3,11 @@
   <title>Удалили пользователя</title>
 </head>
 <body>
-
 <?php
 include_once ('connect.php');
 $dbc = mysqli_connect($db_host, $db_usr, $db_pass, $db_name) or die ('Error connecting to MySQL server.');
-
- 
     $query = "DELETE FROM `components` WHERE id=$_GET[id]";
-	
-  $result = mysqli_query($dbc, $query)
-    or die('Error querying database.');
-
-
-
+  $result = mysqli_query($dbc, $query) or die('Error querying database.');
   echo 'Удален';
   mysqli_close($dbc);
 ?>
